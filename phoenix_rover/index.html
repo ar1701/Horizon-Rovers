@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Horizon - Phoenix Rover</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <nav>
+            <span>
+                <img class="logo" src="./logo.png" alt="">
+                <span>
+                    <span>
+                        TEAM
+                    </span>
+                    <span>
+                        HORIZON
+                    </span>
+                </span>
+            </span>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">TEAM</a></li>
+                <li><a href="#">ALUMNI</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="rover-head">
+        <h1>OUR ROVERS</h1>
+    </div>
+
+    <div class="tiranga">
+        <img src="./phoenix.svg" alt="">
+        <div class="desc">
+
+            <h2>PHOENIX</h2>
+            <span class="year">2024</span>
+            <h4>Mechanical Design</h4>
+            <p>The 2023 Phoenix iteration of our Mars rover project introduced a 6-wheeled design with significant
+                weight reduction achieved through the use of primarily aluminum and custom components. The integration
+                of a cycloidal gearbox with a differential wrist unit and a custom wheel fork improved the rover's
+                efficiency and maneuverability. The 6 DOF robotic arm, driven by a worm gear for steering, was
+                fabricated using advanced techniques such as 3D printing and sheet metal cutting and bending.</p>
+        </div>
+    </div>
+    <div class="tiranga">
+        <div class="desc">
+            <div>
+                <h4>Electrical Systems</h4>
+                <p>In this iteration, we continued to focus on robust electrical systems. The rover was powered by a
+                    reliable 12V Li-ion battery pack and equipped with safety features like fuses, isolators, and an
+                    emergency stop button. System monitoring was enhanced to ensure optimal performance and fault
+                    detection. Robust connectors and indicator lights were used to maintain operational visibility and
+                    reliability.</p>
+
+            </div>
+            <div>
+                <h4>Software and Navigation</h4>
+                <p>Phoenix utilized both ROS2 Foxy and ROS1 Noetic, connected through a serial bridge. This setup was
+                    necessary as our hardware was compatible only with ROS1, while various other components required
+                    ROS2. For perception, we used an Intel RealSense depth camera, and for obstacle detection, we
+                    implemented a YOLOv8 model. We also developed forward kinematics for the robotic arm. Despite these
+                    advancements, the system had not yet achieved full autonomy.</p>
+            </div>
+        </div>
+
+        <img class="realTira" src="./real phoenix.svg" alt="">
+    </div>
+
+    <div class="tiranga">
+        <div class="desc">
+            <h4>Scientific Payload</h4>
+            <p>The rover was equipped with a telescopic drill designed for handling tasks related to navigation,
+                science, and maintenance during the ERC 2023 mission. The scientific payload included instruments for
+                conducting detailed observations and experiments, enabling the rover to contribute valuable data during
+                the mission.</p>
+        </div>
+    </div>
+    <div class="tiranga">
+        <div class="desc">
+            <h4>Fabrication and Customization</h4>
+            <p>The introduction of custom components like the cycloidal gearbox and differential wrist unit, as well as
+                the custom wheel fork, showcased our ability to innovate and tailor the rover to specific mission
+                requirements. The use of 3D printing and sheet metal cutting and bending techniques allowed for precise
+                fabrication and significant weight reduction, enhancing the rover's performance and durability in the
+                challenging Martian environment.</p>
+        </div>
+    </div>
+    <hr class="ut">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <span>
+                        <img class="logo" src="./logo.png" alt="">
+                        <span>
+                            <span>
+                                TEAM
+                            </span>
+                            <span>
+                                HORIZON
+                            </span>
+                        </span>
+                    </span>
+                </div>
+                <div class="footer-info">
+                    <p>Cochin University of Science and Technology</p>
+                    <p><i class="fas fa-phone-alt"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> (123) 456-7890</p>
+                </div>
+
+            </div>
+            <div class="footer-mid">
+                <ul class="footer-nav">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">DISCLAIMER</a></li>
+                    <li><a href="#">HELP</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <div class="university-logo">
+                    <img src="./cusat.svg" alt="Cochin University Logo">
+                    <h4><span>COCHIN UNIVERSITY</span><span>OF SCIENCE AND</span><span>TECHNOLOGY</span></h4>
+                </div>
+                <div class="newsletter">
+                    <p>Subscribe</p>
+                    <form action="#">
+                        <input type="email" placeholder="subscribe to our newsletter">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <hr class="ft">
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="#"><img src="./Linkedin.svg" alt=""></a>
+                <a href="#"><img src="./facebook.svg" alt=""></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2024 • Horizon Media Team.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
